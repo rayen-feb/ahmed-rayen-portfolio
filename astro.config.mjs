@@ -6,6 +6,8 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://rayen-feb.github.io",
+  base: "/cv-site",
   integrations: [tailwind(), react()],
   vite: {
     resolve: {
